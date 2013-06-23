@@ -20,7 +20,7 @@ class ReverseDivide
 			# insert only the numbers that, when divided, returns an integer.
 			final_numbers << number if divide_result == 0
 		end
-		pp "#{final_numbers.size} numbers are divisible by the reverse. They are: #{final_numbers.join(', ').chomp}"
+		pp "#{final_numbers.size} numbers are divisible by the reverse. They are: #{final_numbers.join(', ')}"
 	end
 
 	def check_if_number_is_valid(number)
